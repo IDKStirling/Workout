@@ -1,0 +1,48 @@
+{id:'legends',name:'Legends Split',tag:'Legends · 2-week rotation',desc:'The famous workouts laid out as a rotation — Platz legs, Arnold chest, 5×5, Herschel bodyweight, 20-rep squats, German Volume, Coleman heavy — all on your YMCA gear. Follow the 2-week calendar in ★ Legends (Platz only every 2 weeks) with rest days built in.',muscle:'A rotation of the most famous mass- and strength-building sessions ever — huge variety and volume, with the brutal leg days spaced two weeks apart so you actually recover.',football:'Old-school leg and posterior punishment for hip drive, plus a bodyweight conditioning day straight out of the NFL — with the rest days that keep it survivable.',days:[
+   {id:'d1',name:'Platz Legs',sub:'Legs · high volume 🔥',type:'quads',ex:[
+     {id:'hack',n:'Hack Squat',t:'5 × 12–15',note:'Platz’s signature. High volume — leave 1–2 reps in the tank.',rest:120},
+     {id:'legpress',n:'Leg Press',t:'4 × 15',note:'Deep and controlled.',rest:120},
+     {id:'legext',n:'Leg Extension',t:'4 × 15–20',note:'Burnout style — squeeze the top.',rest:60,ss:'A'},
+     {id:'legcurl',n:'Seated Leg Curl',t:'4 × 12–15',note:'Balance the hamstrings.',rest:60,ss:'A'},
+     {id:'calf2',n:'Leg Press Calf Raise',t:'4 × 20',note:'Full stretch, slow.',rest:60},
+   ]},
+   {id:'d2',name:'Arnold Chest',sub:'Chest · shoulders · triceps',type:'push',ex:[
+     {id:'bench',n:'Bench Press',t:'5 × 8–12',note:'Spotter every set.',rest:120},
+     {id:'chestpress',n:'Chest Press Machine',t:'4 × 10–12',note:'Chase the pump.',rest:90},
+     {id:'fly',n:'Pec Fly Machine',t:'4 × 12–15',note:'Big stretch, constant tension.',rest:60},
+     {id:'dip',n:'Dips',t:'3 × 8–10',note:'Assist if needed. Stop shy of failure.',rest:90,ss:'A'},
+     {id:'tripush',n:'Triceps Press Machine',t:'3 × 15',note:'Full lockout.',rest:60,ss:'A'},
+   ]},
+   {id:'d3',name:'5×5 Strength',sub:'Full-body compounds',type:'quads',ex:[
+     {id:'squat',n:'Back Squat',t:'5 × 5',note:'Add ~5 lb when all 5×5 are clean.',rest:180},
+     {id:'bench',n:'Bench Press',t:'5 × 5',note:'Spotter every set.',rest:180},
+     {id:'row',n:'Seated Row',t:'5 × 5',note:'Strong, controlled pulls.',rest:120},
+     {id:'ohp',n:'Shoulder Press Machine',t:'5 × 5',note:'Safe overhead.',rest:120},
+   ]},
+   {id:'d4',name:'Herschel Walker Bodyweight',sub:'Bodyweight · conditioning',type:'upper',ex:[
+     {id:'pushup',n:'Push-Ups',t:'5 × 25',note:'Chest to floor, tight core. Build the number up over weeks.',rest:60},
+     {id:'chinup',n:'Chin-Ups',t:'5 × max',note:'Assist if needed. Full hang each rep.',rest:75},
+     {id:'dip',n:'Dips',t:'5 × max',note:'Assist if needed.',rest:75},
+     {id:'crunch',n:'Sit-Ups / Ab Crunch',t:'5 × 25',note:'Slow and controlled.',rest:45},
+     {id:'plank',n:'Plank',t:'3 × 60 sec',note:'Brace hard.',rest:45},
+   ]},
+   {id:'d5',name:'20-Rep Squats',sub:'Legs · the breathing set 🔥',type:'quads',ex:[
+     {id:'squat',n:'Back Squat',t:'2 × 20',note:'The breathing set — 2–3 big breaths between the last reps. Spotter / safeties up. Moderate weight, stop if form breaks.',rest:180},
+     {id:'legpress',n:'Leg Press',t:'3 × 15',note:'Deep and controlled.',rest:90},
+     {id:'legcurl',n:'Seated Leg Curl',t:'3 × 12',note:'Hamstrings.',rest:60,ss:'A'},
+     {id:'calf2',n:'Leg Press Calf Raise',t:'3 × 20',note:'Full stretch.',rest:60,ss:'A'},
+   ]},
+   {id:'d6',name:'German Volume 10×10',sub:'Upper · pure volume',type:'upper',ex:[
+     {id:'chestpress',n:'Chest Press Machine',t:'10 × 10',note:'~60% of your max, 60–90 sec rest. The last sets get hard.',rest:75},
+     {id:'row',n:'Seated Row',t:'10 × 10',note:'Same weight all 10 sets. Keep it clean.',rest:75},
+     {id:'lateral',n:'DB Lateral Raise',t:'3 × 15',note:'Side delts.',rest:60,ss:'A'},
+     {id:'curl',n:'Bicep Curl Machine',t:'3 × 12',note:'No swinging.',rest:60,ss:'A'},
+   ]},
+   {id:'d7',name:'Coleman Heavy',sub:'Posterior · go heavier',type:'posterior',ex:[
+     {id:'hack',n:'Hack Squat',t:'5 × 8',note:'Heavier today — "yeah buddy," but form first.',rest:150},
+     {id:'legpress',n:'Leg Press',t:'4 × 8–10',note:'Load it up, full range.',rest:150},
+     {id:'backext',n:'Back Extension',t:'4 × 10',note:'Flat back, squeeze the glutes.',rest:90},
+     {id:'legcurl',n:'Seated Leg Curl',t:'4 × 10',note:'Hamstrings.',rest:75,ss:'A'},
+     {id:'glutetrainer',n:'Glute Trainer',t:'3 × 12',note:'Drive the hips.',rest:75,ss:'A'},
+   ]},
+ ]},

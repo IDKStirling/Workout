@@ -1,0 +1,15 @@
+{
+  "name": "trench",
+  "version": "1.0.0",
+  "description": "TRENCH training app: source, build and tests",
+  "scripts": {
+    "build": "python3 build.py",
+    "test": "python3 build.py && node qa/engine_test.js && node qa/coach_test.js && node qa/nutrition_test.js && node qa/plan_test.js"
+  },
+  "dependencies": {
+    "@resvg/resvg-js": "^2.6.2",
+    "pngjs": "^7.0.0",
+    "three": "^0.128.0"
+  },
+  "private": true
+}
